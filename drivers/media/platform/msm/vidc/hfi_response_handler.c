@@ -49,7 +49,7 @@ static enum vidc_status hfi_map_err_status(int hfi_err)
 		vidc_err = VIDC_ERR_NOT_SUPPORTED;
 		break;
 	case HFI_ERR_SYS_MAX_SESSIONS_REACHED:
-		vidc_err = VIDC_ERR_MAX_CLIENT;
+		vidc_err = VIDC_ERR_MAX_CLIENTS;
 		break;
 	case HFI_ERR_SYS_SESSION_IN_USE:
 		vidc_err = VIDC_ERR_CLIENT_PRESENT;
